@@ -1,5 +1,8 @@
+package film;
 
-import java.util.*;
+;import film.Film;
+
+import java.util.ArrayList;
 
 /**
  * Created by Komatoz on 15.01.2018.
@@ -11,9 +14,5 @@ public class FilmLibrary {
     void addFilm(Film film){
         films.add(film);
     }
-
-
-
-
 
 }

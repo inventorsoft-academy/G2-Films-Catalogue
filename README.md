@@ -4,7 +4,7 @@ You need to develop Command Line Application for films review
 # Brief description
 An application is divided into two modules: customer area and administration area.
 Customer area:
-  1) Registration;
+  1) film.Registration;
   2) Login;
   3) View all films;
   4) View top 10 films;
