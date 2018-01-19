@@ -2,13 +2,15 @@ package film;
 
 
 
+import film.dataBase.DataBase;
+
 import java.io.IOException;
 
 /**
  * Created by Komatoz on 17.01.2018.
  */
 public class Registration {
-        public static void execute() {
+        public static void execute() throws IOException {
 
             boolean done = true;
             ConsoleHelper.writeMessage("Welcome to registration new User\n");
@@ -56,7 +58,7 @@ public class Registration {
                 ConsoleHelper.writeMessage("Registration account done");
 
                 ConsoleHelper.writeMessage(user.toString());
-
+                DataBase.save(user);
             }
 
         }

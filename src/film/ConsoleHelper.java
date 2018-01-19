@@ -1,6 +1,7 @@
 package film;
 
 import java.io.BufferedReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.regex.Matcher;
@@ -11,9 +12,19 @@ import java.util.regex.Pattern;
  */
 public abstract class ConsoleHelper {
 
+
+
+
+
+
+
+
         private static BufferedReader bis = new BufferedReader(new InputStreamReader(System.in));
 
-        public static void writeMessage(String message) {
+    protected ConsoleHelper() throws IOException {
+    }
+
+    public static void writeMessage(String message) {
             System.out.println(message);
         }
 

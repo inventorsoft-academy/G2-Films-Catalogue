@@ -1,5 +1,7 @@
 package film;
 
+import film.dataBase.DataBase;
+
 import java.util.*;
 
 /**
@@ -10,8 +12,8 @@ public abstract class Authorization {
 
 
     public static boolean isUser(String login){
-        for (User user : users) {
-            if (user.getLogin_email().equalsIgnoreCase(login))return true;
+        for (String userName : DataBase.getAllUserNames()) {
+            if (userName.equalsIgnoreCase(login))return true;
 
         }
 
