@@ -2,51 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d903a2f8-23af-4d71-ba2d-a5f39272397c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/java/main/com/academy/inventorsoft/g2_films_catalogue/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/java/main/com/academy/inventorsoft/g2_films_catalogue/controller/FilmController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/java/main/com/academy/inventorsoft/g2_films_catalogue/controller/ReviewController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/java/main/com/academy/inventorsoft/g2_films_catalogue/controller/UserController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/java/main/com/academy/inventorsoft/g2_films_catalogue/dataBase/DataBase.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/java/main/com/academy/inventorsoft/g2_films_catalogue/dataBase/FilmDataBase.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/java/main/com/academy/inventorsoft/g2_films_catalogue/dataBase/SaveDataToFile.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/java/main/com/academy/inventorsoft/g2_films_catalogue/dataBase/UserDataBase.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/java/main/com/academy/inventorsoft/g2_films_catalogue/dataBase/UserReviewDataBase.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/java/main/com/academy/inventorsoft/g2_films_catalogue/film/Film.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/java/main/com/academy/inventorsoft/g2_films_catalogue/menu/AuthorizationMenu.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/java/main/com/academy/inventorsoft/g2_films_catalogue/menu/FilmProfileMenu.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/java/main/com/academy/inventorsoft/g2_films_catalogue/menu/ModeratorMenu.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/java/main/com/academy/inventorsoft/g2_films_catalogue/menu/UserMenu.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/java/main/com/academy/inventorsoft/g2_films_catalogue/user/User.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/java/main/com/academy/inventorsoft/g2_films_catalogue/user/UserFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/java/main/com/academy/inventorsoft/g2_films_catalogue/userReview/UserReview.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/java/main/com/academy/inventorsoft/g2_films_catalogue/utilitClass/Validator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/java/main/resources/application.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/G2-Films-Catalogue-1.0-SNAPSHOT.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/G2-Films-Catalogue.iml" afterPath="$PROJECT_DIR$/G2-Films-Catalogue.iml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/dataBase/Films" afterPath="$PROJECT_DIR$/dataBase/Films" />
-      <change beforePath="$PROJECT_DIR$/dataBase/UserReview" afterPath="$PROJECT_DIR$/dataBase/UserReview" />
-      <change beforePath="$PROJECT_DIR$/dataBase/Users" afterPath="$PROJECT_DIR$/dataBase/Users" />
-      <change beforePath="$PROJECT_DIR$/src/filmCatalog/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/filmCatalog/dataBase/DataBase.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/filmCatalog/dataBase/FilmDataBase.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/filmCatalog/dataBase/UserDataBase.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/filmCatalog/dataBase/UserReviewDataBase.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/filmCatalog/enumations/Genres.java" afterPath="$PROJECT_DIR$/src/java/main/com/academy/inventorsoft/g2_films_catalogue/enums/Genres.java" />
-      <change beforePath="$PROJECT_DIR$/src/filmCatalog/film/Film.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/filmCatalog/film/FilmsFactory.java" afterPath="$PROJECT_DIR$/src/java/main/com/academy/inventorsoft/g2_films_catalogue/film/FilmsFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/filmCatalog/menu/AuthorizationMenu.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/filmCatalog/menu/ModeratorMenu.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/filmCatalog/user/User.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/filmCatalog/user/UserFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/filmCatalog/userReview/UserReview.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/filmCatalog/userReview/UserReviewFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/filmCatalog/utilitClass/ConsoleHelper.java" afterPath="$PROJECT_DIR$/src/java/main/com/academy/inventorsoft/g2_films_catalogue/utilitClass/ConsoleHelper.java" />
-      <change beforePath="$PROJECT_DIR$/src/filmCatalog/utilitClass/Validator.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -129,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/src/java/main/com/academy/inventorsoft/g2_films_catalogue/dataBase/UserReviewDataBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1680">
-              <caret line="68" column="19" lean-forward="true" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+              <caret line="68" column="19" lean-forward="false" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
               <folding>
                 <element signature="e#935#936#0" expanded="true" />
                 <element signature="e#1014#1015#0" expanded="true" />
@@ -174,8 +130,8 @@
       <file leaf-file-name="Films" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dataBase/Films">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="18" column="91" lean-forward="false" selection-start-line="18" selection-start-column="91" selection-end-line="18" selection-end-column="91" />
+            <state relative-caret-position="0">
+              <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -324,9 +280,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -419,6 +374,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -426,7 +382,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/dataBase/Films___jb_old___" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.21052632" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -805,10 +761,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16424116" sideWeight="0.49567568" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24324325" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2889813" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.75155926" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35405406" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35405406" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -940,6 +896,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="569">
           <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1059,6 +1016,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1118,6 +1076,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
           <caret line="37" column="95" lean-forward="false" selection-start-line="37" selection-start-column="95" selection-end-line="37" selection-end-column="95" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1168,7 +1127,7 @@
     <entry file="file://$PROJECT_DIR$/src/java/main/com/academy/inventorsoft/g2_films_catalogue/dataBase/UserReviewDataBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1680">
-          <caret line="68" column="19" lean-forward="true" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+          <caret line="68" column="19" lean-forward="false" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
           <folding>
             <element signature="e#935#936#0" expanded="true" />
             <element signature="e#1014#1015#0" expanded="true" />
@@ -1221,8 +1180,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dataBase/Films">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="18" column="91" lean-forward="false" selection-start-line="18" selection-start-column="91" selection-end-line="18" selection-end-column="91" />
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
           <folding />
         </state>
       </provider>
