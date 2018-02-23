@@ -1,10 +1,10 @@
-# G2-Films-Catalogue
+ G2-Films-Catalogue
 You need to develop Command Line Application for films adminReview
 
-# Brief description
+ Brief description
 An application is divided into two modules: customer area and administration area.
 Customer area:
-  1) filmCatalog.user.UserFactory;
+  1) UserFactory;
   2) Login;
   3) View all films;
   4) View top 10 films;
