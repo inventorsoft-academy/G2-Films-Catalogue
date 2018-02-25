@@ -1,4 +1,4 @@
-package academy.inventorsoft.g2_films_catalogue.enums;
+package academy.inventorsoft.g2_films_catalogue.model;
 
 /**
  * Created by Komatoz on 28.01.2018.

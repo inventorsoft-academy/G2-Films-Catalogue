@@ -1,9 +1,8 @@
-package academy.inventorsoft.g2_films_catalogue.film;
+package academy.inventorsoft.g2_films_catalogue.model;
 
 
 
 
-import academy.inventorsoft.g2_films_catalogue.enums.Genres;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
@@ -25,8 +24,6 @@ import static java.util.stream.Collectors.joining;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Film {
-
-
     private String name;
     private String director;
     private String adminReview;

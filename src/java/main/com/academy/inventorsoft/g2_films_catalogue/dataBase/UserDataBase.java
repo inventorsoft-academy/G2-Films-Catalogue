@@ -1,7 +1,7 @@
 package academy.inventorsoft.g2_films_catalogue.dataBase;
 
 
-import academy.inventorsoft.g2_films_catalogue.user.User;
+import academy.inventorsoft.g2_films_catalogue.model.User;
 import org.springframework.stereotype.Component;
 
 
@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
  * Created by Komatoz on 30.01.2018.
  */
 @Component
-public class UserDataBase implements SaveDataToFile{
+public class UserDataBase{
 
     private List<User> users;
     DataBase dataBase;
@@ -55,7 +55,7 @@ public class UserDataBase implements SaveDataToFile{
     public boolean isModerator(String login){
         return hasUserInBase(login) && getUser(login).get().isModerator();
     }
-    @Override
+
     public void saveData() {
         dataBase.saveAllUsersToFile(users);
     }

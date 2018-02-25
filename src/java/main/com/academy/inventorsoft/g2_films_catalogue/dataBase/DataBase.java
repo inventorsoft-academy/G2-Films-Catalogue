@@ -1,9 +1,9 @@
 package academy.inventorsoft.g2_films_catalogue.dataBase;
 
 
-import academy.inventorsoft.g2_films_catalogue.film.Film;
-import academy.inventorsoft.g2_films_catalogue.user.User;
-import academy.inventorsoft.g2_films_catalogue.userReview.UserReview;
+import academy.inventorsoft.g2_films_catalogue.model.Film;
+import academy.inventorsoft.g2_films_catalogue.model.User;
+import academy.inventorsoft.g2_films_catalogue.model.UserReview;
 import org.springframework.stereotype.Component;
 import java.io.*;
 import java.nio.file.Files;

@@ -1,4 +1,4 @@
-package academy.inventorsoft.g2_films_catalogue.userReview;
+package academy.inventorsoft.g2_films_catalogue.model;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;

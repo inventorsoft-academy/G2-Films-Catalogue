@@ -1,13 +1,15 @@
 package academy.inventorsoft.g2_films_catalogue.controller;
 
 import academy.inventorsoft.g2_films_catalogue.dataBase.FilmDataBase;
-import academy.inventorsoft.g2_films_catalogue.film.Film;
+import academy.inventorsoft.g2_films_catalogue.model.Film;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 
-import java.util.Collections;
 import java.util.List;
 
 import static org.springframework.web.bind.annotation.RequestMethod.*;
@@ -51,10 +53,13 @@ public class FilmController {
     }
 
     @GetMapping(value = "/hasFilm" ,produces = MediaType.APPLICATION_JSON_VALUE)
-    public boolean hashasFilm(@RequestParam(value = "name") String name) {
+    public ResponseEntity hashasFilm(@RequestParam(value = "name") String name) {
         System.out.println("hesFilm: " + name);
-        return filmDataBase.hasFilm(name);
-    }
+        if(!filmDataBase.hasFilm(name)){
+            return new ResponseEntity(HttpStatus.OK);
+        } else return new ResponseEntity(HttpStatus.NOT_FOUND);
+
+        }
 
 
 

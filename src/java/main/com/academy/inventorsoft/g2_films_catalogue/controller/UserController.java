@@ -2,7 +2,7 @@ package academy.inventorsoft.g2_films_catalogue.controller;
 
 
 import academy.inventorsoft.g2_films_catalogue.dataBase.UserDataBase;
-import academy.inventorsoft.g2_films_catalogue.user.User;
+import academy.inventorsoft.g2_films_catalogue.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

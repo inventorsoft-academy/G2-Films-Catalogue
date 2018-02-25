@@ -1,4 +1,4 @@
-package academy.inventorsoft.g2_films_catalogue.user;
+package academy.inventorsoft.g2_films_catalogue.model;
 
 
 

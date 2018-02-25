@@ -2,10 +2,10 @@ package academy.inventorsoft.g2_films_catalogue.controller;
 
 
 import academy.inventorsoft.g2_films_catalogue.dataBase.UserReviewDataBase;
-import academy.inventorsoft.g2_films_catalogue.userReview.UserReview;
+import academy.inventorsoft.g2_films_catalogue.model.UserReview;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
-import java.time.LocalDateTime;
+
 import java.util.List;
 
 

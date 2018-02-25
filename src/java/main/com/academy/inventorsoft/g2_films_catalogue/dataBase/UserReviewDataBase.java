@@ -3,7 +3,7 @@ package academy.inventorsoft.g2_films_catalogue.dataBase;
 
 
 
-import academy.inventorsoft.g2_films_catalogue.userReview.UserReview;
+import academy.inventorsoft.g2_films_catalogue.model.UserReview;
 import lombok.Getter;
 import org.springframework.stereotype.Component;
 import java.util.Comparator;
@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
  */
 @Getter
 @Component
-public class UserReviewDataBase implements SaveDataToFile {
+public class UserReviewDataBase{
     private List<UserReview> userReviews;
     private DataBase dataBase;
     private UserReviewDataBase(DataBase dataBase){
@@ -54,8 +54,6 @@ public class UserReviewDataBase implements SaveDataToFile {
          return userReviews.stream().filter(res -> res.getId().equalsIgnoreCase(id)).findFirst();
     }
 
-
-    @Override
     public void saveData() {
         dataBase.saveAllUserReviewToFile(userReviews);
     }
